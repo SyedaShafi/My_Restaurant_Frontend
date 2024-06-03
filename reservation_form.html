@@ -1,0 +1,258 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant|Reservation</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <div class="p-2 bg-gray-900 bg-opacity-70">
+        <button id="toggleBtn">
+          <img
+            class="lg:hidden bg-white rounded-lg"
+            height="40px"
+            width="40px"
+            src="images/menu.png"
+            alt=""
+          />
+        </button>
+      </div>
+
+      <nav
+        id="navToggle"
+        class="navbar bg-gray-900 bg-opacity-70 text-white lg:block"
+      >
+        <div>
+          <ul
+            class="lg:flex items-center justify-center font-bold lg:text-2xl p-4"
+          >
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="menu.html">
+                Menu
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="reservation_form.html"
+                >Make Reservations</a
+              >
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="contact_us.html"
+              >
+                Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+    </header>
+
+    <!-- form section -->
+    <section>
+      <div
+        class="lg:m-24 m-4 p-8 lg:p-12 rounded-lg lg:grid grid-cols-12 shadow-xl"
+      >
+        <div class="col-span-6 form-bg">
+          <form action="" class="">
+            <h1 class="text-center font-bold text-3xl">Make a Reservation</h1>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="name"
+                >Your Name</label
+              >
+              <input
+                type="text"
+                name="name"
+                class="w-full block border border-gray-300 hover:border-gray-600 p-3 rounded-md"
+                placeholder="Enter Your Name"
+                required
+              />
+            </div>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="email"
+                >Your Email</label
+              >
+              <input
+                type="email"
+                name="email"
+                class="w-full block border border-gray-300 hover:border-gray-600 p-3 rounded-md"
+                placeholder="Enter Your Email"
+                required
+              />
+            </div>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="phone"
+                >Phone Number</label
+              >
+              <input
+                type="tel"
+                name="phone"
+                class="w-full block border border-gray-300 hover:border-gray-600 p-3 rounded-md"
+                placeholder="123-456-7890"
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+                required
+              />
+            </div>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="date"
+                >Date & Time</label
+              >
+              <input
+                type="datetime-local"
+                name="date"
+                class="w-full block border text-gray-400 border-gray-300 hover:border-gray-600 p-3 rounded-md"
+                required
+              />
+            </div>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="guestNum"
+                >Number of Guests</label
+              >
+              <input
+                type="number"
+                name="guestNum"
+                class="w-full block border border-gray-300 hover:border-gray-600 p-3 rounded-md"
+                placeholder="Enter Number Of Guests"
+                required
+              />
+            </div>
+            <div class="m-3 text-white">
+              <label
+                class="block text-black font-bold mb-3 ms-2 text-xl"
+                for="guestNum"
+                >Special Requests</label
+              >
+              <textarea
+                name="guestNum"
+                class="w-full block text-gray-400  border border-gray-300 hover:border-gray-600 p-3 rounded-md"
+              >
+If you have any request feel free to ask!
+              </textarea>
+            </div>
+            <div class="m-3">
+              <button
+                type="submit"
+                class="bg-green-900 text-white mt-4 text-xl px-4 py-3 rounded hover:bg-green-950 w-full"
+              >
+                Submit
+              </button>
+            </div>
+          </form>
+        </div>
+        <div class="col-span-6">
+          <img
+            height="auto"
+            width="full"
+            src="images/form.jpg"
+            class="hidden lg:block"
+            alt=""
+          />
+        </div>
+      </div>
+    </section>
+
+    <!--  end of form section -->
+
+    <footer
+      class="bg-gray-700 lg:h-1/4 sm:h-full flex flex-col justify-between"
+    >
+      <div class="">
+        <ul class="lg:flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="index.html">Home</a>
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="menu.html">Menu</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="reservation_form.html">Make Reservations</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/facebook.png"
+              alt="facebook"
+            />
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/instagram.png"
+              alt="instaagram"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/twitter.png"
+              alt="twitter"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/linkedin.png"
+              alt="linkedin"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="text-white text-center mb-8">
+        <p>
+          All rights reserved by
+          <a href="" class="text-red-400 font-bold"> SyedaGulnaj</a>
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

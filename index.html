@@ -1,0 +1,244 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant|Homepage</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header class="hero h-screen">
+      <!-- navbar -->
+      <div class="p-2 bg-gray-900 bg-opacity-70">
+        <button id="toggleBtn">
+          <img
+            class="lg:hidden bg-white rounded-lg"
+            height="40px"
+            width="40px"
+            src="images/menu.png"
+            alt=""
+          />
+        </button>
+      </div>
+
+      <nav
+        id="navToggle"
+        class="navbar bg-gray-900 bg-opacity-70 text-white lg:block"
+      >
+        <div>
+          <ul
+            class="lg:flex items-center justify-center font-bold lg:text-2xl p-4"
+          >
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="menu.html">
+                Menu
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="reservation_form.html"
+                >Make Reservations</a
+              >
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="contact_us.html"
+              >
+                Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+
+      <!-- hero -->
+      <section class="sm:mt-12 lg:mt-0">
+        <div class="lg:flex justify-center items-center h-full text-center">
+          <div>
+            <h1 class="lg:text-5xl font-bold mb-6">
+              Welcome to Our Restaurant!
+            </h1>
+            <p class="lg:text-2xl lg:w-1/2 lg:m-auto">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sequi
+              fuga quisquam natus labore tempora quasi porro molestiae. Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. In voluptatem
+              ducimus vel.
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- end hero -->
+    </header>
+
+    <!-- review  -->
+    <div class="m-5">
+      <div>
+        <h1 class="text-2xl font-bold text-center mb-4 mt-24">
+          <span class="text-red-500 text-4xl"> Take a Peek </span><br />
+          What People Say About Us
+        </h1>
+        <hr />
+      </div>
+
+      <div class="my-12 lg:grid grid-cols-12">
+        <!-- card 1 -->
+        <div
+          class="card border-2 border-black p-12 lg:col-span-4 bg-gray-700 rounded-lg m-2 transition ease-in-out hover:translate-y-1 hover:scale-90 delay-300 duration-300"
+        >
+          <div class="lg:flex py-4 justify-start">
+            <img
+              height="120px"
+              width="120px"
+              src="images/user.jpg"
+              alt="profile"
+              class="rounded"
+            />
+            <div class="flex flex-col justify-end">
+              <div class="text-white text-xl p-2">Name: Mr. User</div>
+              <p class="text-white text-xl p-2">Rating: ⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="bg-gray-500 p-6 rounded-lg bg-opacity-80 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+            quos architecto dicta.
+          </p>
+        </div>
+        <!-- end card1 -->
+        <!-- card2 -->
+        <div
+          class="card border-2 border-black p-12 lg:col-span-4 bg-gray-700 rounded-lg m-2 transition ease-in-out hover:translate-y-1 hover:scale-90 delay-300 duration-300"
+        >
+          <div class="lg:flex py-4 justify-start">
+            <img
+              height="120px"
+              width="120px"
+              src="images/user.jpg"
+              alt="profile"
+              class="rounded"
+            />
+            <div class="flex flex-col justify-end">
+              <div class="text-white text-xl p-2">Name: Mr. User</div>
+              <p class="text-white text-xl p-2">Rating: ⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="bg-gray-500 p-6 rounded-lg bg-opacity-80 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+            quos architecto dicta.
+          </p>
+        </div>
+        <!-- end card 2 -->
+        <!-- card 3 -->
+        <div
+          class="card border-2 border-black p-12 lg:col-span-4 bg-gray-700 rounded-lg m-2 transition ease-in-out hover:translate-y-1 hover:scale-90 delay-300 duration-300"
+        >
+          <div class="lg:flex py-4 justify-start">
+            <img
+              height="120px"
+              width="120px"
+              src="images/user.jpg"
+              alt="profile"
+              class="rounded"
+            />
+            <div class="flex flex-col justify-end">
+              <div class="text-white text-xl p-2">Name: Mr. User</div>
+              <p class="text-white text-xl p-2">Rating: ⭐⭐⭐</p>
+            </div>
+          </div>
+          <p class="bg-gray-500 p-6 rounded-lg bg-opacity-80 text-white">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit
+            quos architecto dicta.
+          </p>
+        </div>
+        <!-- end card 3 -->
+      </div>
+    </div>
+    <!-- end of review -->
+    <footer
+      class="bg-gray-700 lg:h-1/4 sm:h-full flex flex-col justify-between"
+    >
+      <div class="">
+        <ul class="lg:flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="index.html">Home</a>
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="menu.html">Menu</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="reservation_form.html">Make Reservations</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/facebook.png"
+              alt="facebook"
+            />
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/instagram.png"
+              alt="instaagram"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/twitter.png"
+              alt="twitter"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/linkedin.png"
+              alt="linkedin"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="text-white text-center mb-8">
+        <p>
+          All rights reserved by
+          <a href="" class="text-red-400 font-bold"> SyedaGulnaj</a>
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>

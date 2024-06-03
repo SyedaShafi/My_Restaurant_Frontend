@@ -1,0 +1,578 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Restaurant|Menu</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body>
+    <header>
+      <!-- navbar -->
+      <div class="p-2 bg-gray-900 bg-opacity-70">
+        <button id="toggleBtn">
+          <img
+            class="lg:hidden bg-white rounded-lg"
+            height="40px"
+            width="40px"
+            src="images/menu.png"
+            alt=""
+          />
+        </button>
+      </div>
+
+      <nav
+        id="navToggle"
+        class="navbar bg-gray-900 bg-opacity-70 text-white lg:block"
+      >
+        <div>
+          <ul
+            class="lg:flex items-center justify-center font-bold lg:text-2xl p-4"
+          >
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="index.html">
+                Home
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a class="px-2 hover:bg-gray-500 rounded-lg" href="menu.html">
+                Menu
+              </a>
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="reservation_form.html"
+                >Make Reservations</a
+              >
+            </li>
+            <li class="m-2 p-2">
+              <a
+                class="px-2 hover:bg-gray-500 rounded-lg"
+                href="contact_us.html"
+              >
+                Contact Us</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- end of navbar -->
+    </header>
+    <main>
+      <h1 class="text-4xl font-bold text-red-400 text-center p-4 mt-12">
+        Our
+        <span class="text-yellow-700 text-5xl"> Amazing </span>
+
+        <span class="text-yellow-700 text-5xl"> FOOD </span> Menu!
+      </h1>
+      <div class="md:grid grid-cols-12 gap-12 md:m-10 m-6">
+        <!-- catergory cards 1 -->
+        <div class="col-span-6 border-2 border-black rounded shadow-2xl my-8">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <img
+                height="auto"
+                width="full"
+                src="images/appetizers.jpg"
+                alt="Appetizers"
+              />
+            </div>
+            <div class="col-span-12">
+              <h1 class="text-2xl font-bold text-center p-3">Appetizers</h1>
+              <hr class="mb-12" />
+              <!-- menu item -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item-4 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- end menu item -->
+            </div>
+          </div>
+        </div>
+        <!-- category cards 2 -->
+        <div class="col-span-6 border-2 border-black rounded shadow-2xl my-8">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <img
+                height="auto"
+                width="full"
+                src="images/main_course.jpg"
+                alt="Appetizers"
+              />
+            </div>
+            <div class="col-span-12">
+              <h1 class="text-2xl font-bold text-center p-3">Main Course</h1>
+              <hr class="mb-12" />
+              <!-- menu item -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item-4 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- end menu item -->
+            </div>
+          </div>
+        </div>
+        <!-- category cards 3 -->
+        <div class="col-span-6 border-2 border-black rounded shadow-2xl my-8">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <img
+                height="auto"
+                width="full"
+                src="images/desserts.jpg"
+                alt="Appetizers"
+              />
+            </div>
+            <div class="col-span-12">
+              <h1 class="text-2xl font-bold text-center p-3">Desserts</h1>
+              <hr class="mb-12" />
+              <!-- menu item -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item-4 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- end menu item -->
+            </div>
+          </div>
+        </div>
+        <!-- category cards 4 -->
+        <div class="col-span-6 border-2 border-black rounded shadow-2xl my-8">
+          <div class="grid grid-cols-12">
+            <div class="col-span-12">
+              <img
+                height="auto"
+                width="full"
+                src="images/beverages.jpg"
+                alt="Appetizers"
+              />
+            </div>
+            <div class="col-span-12">
+              <h1 class="text-2xl font-bold text-center p-3">Beverages</h1>
+              <hr class="mb-12" />
+              <!-- menu item -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 2 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item 3 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- item-4 -->
+              <div
+                class="border-2 border-black m-2 p-2 md:flex gap-3 bg-gray-600 rounded-lg transition ease-in-out delay-150 hover:translate-y-1 hover:scale-75"
+              >
+                <div>
+                  <img
+                    height="400px"
+                    width="400px"
+                    src="images/hero3.jpg"
+                    alt=""
+                    class="rounded"
+                  />
+                </div>
+                <div class="m-2">
+                  <h1 class="font-bold text-2xl">Name: Rhis</h1>
+                  <h1 class="font-bold text-2xl">Price: 140tk</h1>
+                  <strong>
+                    Description: Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Atque temporibus dignissimos in.
+                  </strong>
+                </div>
+              </div>
+              <!-- end menu item -->
+            </div>
+          </div>
+        </div>
+        <!-- end of category -->
+      </div>
+    </main>
+
+    <footer
+      class="bg-gray-700 lg:h-1/4 sm:h-full flex flex-col justify-between"
+    >
+      <div class="">
+        <ul class="lg:flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="index.html">Home</a>
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="menu.html">Menu</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="reservation_form.html">Make Reservations</a>
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
+          >
+            <a href="contact_us.html">Contact Us</a>
+          </li>
+        </ul>
+        <ul class="flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/facebook.png"
+              alt="facebook"
+            />
+          </li>
+
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/instagram.png"
+              alt="instaagram"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/twitter.png"
+              alt="twitter"
+            />
+          </li>
+          <li
+            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+          >
+            <img
+              height="30px"
+              width="30px"
+              src="images/linkedin.png"
+              alt="linkedin"
+            />
+          </li>
+        </ul>
+      </div>
+      <div class="text-white text-center mb-8">
+        <p>
+          All rights reserved by
+          <a href="" class="text-red-400 font-bold"> SyedaGulnaj</a>
+        </p>
+      </div>
+    </footer>
+    <script src="app.js"></script>
+  </body>
+</html>
