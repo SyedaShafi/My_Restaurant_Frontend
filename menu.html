@@ -72,8 +72,7 @@
           <div class="grid grid-cols-12">
             <div class="col-span-12">
               <img
-                height="auto"
-                width="full"
+                class="w-full lg:h-96"
                 src="images/appetizers.jpg"
                 alt="Appetizers"
               />
@@ -178,8 +177,7 @@
           <div class="grid grid-cols-12">
             <div class="col-span-12">
               <img
-                height="auto"
-                width="full"
+                class="w-full lg:h-96"
                 src="images/main_course.jpg"
                 alt="Appetizers"
               />
@@ -284,8 +282,7 @@
           <div class="grid grid-cols-12">
             <div class="col-span-12">
               <img
-                height="auto"
-                width="full"
+                class="w-full lg:h-96"
                 src="images/desserts.jpg"
                 alt="Appetizers"
               />
@@ -390,8 +387,7 @@
           <div class="grid grid-cols-12">
             <div class="col-span-12">
               <img
-                height="auto"
-                width="full"
+                class="w-full lg:h-96"
                 src="images/beverages.jpg"
                 alt="Appetizers"
               />
@@ -495,78 +491,141 @@
       </div>
     </main>
 
-    <footer
-      class="bg-gray-700 lg:h-1/4 sm:h-full flex flex-col justify-between"
-    >
-      <div class="">
-        <ul class="lg:flex lg:mb-0 sm:mb-12 gap-4 ms-12">
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
-          >
-            <a href="index.html">Home</a>
-          </li>
+    <footer class="bg-gray-700 lg:h-1/2 sm:h-full flex flex-col justify-evenly">
+      <div class="md:grid grid-cols-12 justify-evenly">
+        <div class="col-span-4 m-auto">
+          <ul class="lg:mb-0 sm:mb-12 ms-12">
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <a href="menu.html">Menu</a>
+            </li>
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <a href="reservation_form.html">Make Reservations</a>
+            </li>
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <a href="contact_us.html">Contact Us</a>
+            </li>
+          </ul>
+          <ul class="flex lg:mb-0 sm:mb-12 gap-4 ms-12">
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+            >
+              <img
+                height="30px"
+                width="30px"
+                src="images/facebook.png"
+                alt="facebook"
+              />
+            </li>
 
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
-          >
-            <a href="menu.html">Menu</a>
-          </li>
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
-          >
-            <a href="reservation_form.html">Make Reservations</a>
-          </li>
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-150"
-          >
-            <a href="contact_us.html">Contact Us</a>
-          </li>
-        </ul>
-        <ul class="flex lg:mb-0 sm:mb-12 gap-4 ms-12">
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
-          >
-            <img
-              height="30px"
-              width="30px"
-              src="images/facebook.png"
-              alt="facebook"
-            />
-          </li>
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+            >
+              <img
+                height="30px"
+                width="30px"
+                src="images/instagram.png"
+                alt="instaagram"
+              />
+            </li>
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+            >
+              <img
+                height="30px"
+                width="30px"
+                src="images/twitter.png"
+                alt="twitter"
+              />
+            </li>
+            <li
+              class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+            >
+              <img
+                height="30px"
+                width="30px"
+                src="images/linkedin.png"
+                alt="linkedin"
+              />
+            </li>
+          </ul>
+        </div>
 
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
+        <div class="col-span-4 m-auto">
+          <div class="text-white lg:mb-0 sm:mb-12 ms-12 py-12">
+            <h1
+              class="font-bold text-xl mb-1 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              AVAILABLE TIME
+            </h1>
+            <p
+              class="py-2 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <strong>Monday-Friday: </strong> 9am-10pm
+            </p>
+            <h1
+              class="py-2 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <strong>Weekend:</strong> 3pm-9pm
+            </h1>
+          </div>
+        </div>
+
+        <div class="col-span-4 m-auto">
+          <ul
+            class="text-white flex flex-col lg:mb-0 sm:mb-12 gap-4 lg:ms-0 ms-12"
           >
-            <img
-              height="30px"
-              width="30px"
-              src="images/instagram.png"
-              alt="instaagram"
-            />
-          </li>
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
-          >
-            <img
-              height="30px"
-              width="30px"
-              src="images/twitter.png"
-              alt="twitter"
-            />
-          </li>
-          <li
-            class="mt-5 text-white transition ease-in-out hover:translate-y-1 hover:scale-110 hover:delay-10"
-          >
-            <img
-              height="30px"
-              width="30px"
-              src="images/linkedin.png"
-              alt="linkedin"
-            />
-          </li>
-        </ul>
+            <li
+              class="py-2 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <img
+                class="inline m-1"
+                height="20px"
+                width="20px"
+                src="images/pin.png"
+                alt=""
+              />
+
+              <a href="">
+                <strong>Address:</strong> Shamsher Nagar, Moulvibazar, Sylhet</a
+              >
+            </li>
+
+            <li
+              class="py-2 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <img
+                class="inline m-1"
+                height="20px"
+                width="20px"
+                src="images/phone-call.png"
+                alt=""
+              />
+              <a href=""><strong>Phone:</strong> 01744231929</a>
+            </li>
+            <li
+              class="py-2 transition ease-in-out hover:translate-x-1 hover:scale-105 hover:delay-75"
+            >
+              <img
+                class="inline m-1"
+                height="20px"
+                width="20px"
+                src="images/email.png"
+                alt=""
+              />
+              <a href=""><strong>Email:</strong> syedashafi4@gmail.com</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div class="text-white text-center mb-8">
+
+      <div class="text-white text-center mb-1">
+        <hr class="mb-2" />
         <p>
           All rights reserved by
           <a href="" class="text-red-400 font-bold"> SyedaGulnaj</a>
