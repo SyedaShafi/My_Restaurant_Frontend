@@ -4,4 +4,3 @@ btn.addEventListener('click', () => {
   navbar.classList.toggle('hidden');
 });
 
-
